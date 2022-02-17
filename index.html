@@ -8,27 +8,36 @@
 
   <body>
     <h1 id="title">Joseph-Hanningtone Form</h1>
-    <p id="description">This form was created as part of Microverse collaborative project.</p>
-    <form id="survey-form">
-      <label for="name" id="name-label">Name </label>
-       <input type="text" id="name" name="name" placeholder="Enter your name here" required>
-       <br>
-       <label for="email" id="email-label">Email</label> 
-      <input id="email" type="email" placeholder="Enter your email here" required>
-      <br>
-      <label for="number" id="number-label">Number</label>  
-      <input type="number" id="number" min="10" max="16" placeholder="Enter your number here" required>
-      <br>
+     <p id="description">This form was created as part of Microverse collaborative project.</p>
+   
+     <div>
+        <form id="survey-form">
+<fieldset>
+  <legend>Personal Details</legend>
+          <label for="name" id="name-label">Name </label>
+          <input type="text" id="name" name="name" placeholder="Enter your name here" required>
+            <br>
+          <label for="email" id="email-label">Email</label> 
+          <input id="email" type="email" placeholder="Enter your email here" required>
+            <br>
+          <label for="number" id="number-label">Number</label>  
+          <input type="number" id="number" min="10" max="16" placeholder="Enter your number here" required>
+        </fieldset>
+             <br>
+      
+             <fieldset>
+              <legend>Why do you think you can be a great programmer?</legend>
       <select name="join question" id="dropdown"
       list="join-list">
-      <option value="lost confused">i am lost and confused</option>
-      <option value="group learner">i learn best in groups</option>
-      <option value="coders">i like to meet people who code</option>
-      <option value="other">other</option>
+      <option value="I believe">I believe I will make it as a programmer</option>
+      <option value="motivate">I learn from top programmers</option>
+      <option value="coders">I don't like coding</option>
+      <option value="other">Other</option>
       </select>
+    </fieldset>
       <br>
       <fieldset>
-        <legend>have you ever written code?</legend>
+        <legend>Have you ever written a code?</legend>
         <input type="radio"name="coder" value="male">
         Yes<br>
         <input type="radio"name="coder" value="female">
@@ -36,7 +45,7 @@
       </fieldset>
       <br>
       <fieldset>
-        <legend>coding languages you have completed</legend>
+        <legend>Select the coding languages you have completed</legend>
         <label> <input type="checkbox"name="code1" 
         value="javascript"> javascript </label>
         <label> <input type="checkbox"name="code2" 
@@ -45,10 +54,14 @@
             value="c++"> c++ </label>
       </fieldset>
    <br>
-   <textarea name="comment" id="comment" cols="30" rows="10">Comments</textarea>
+   <fieldset>
+   <legend>What else do you want to tell us?</legend>
+   <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Write your comments here?"></textarea>
+  </fieldset>
    <br>
    <input type="submit" value="submit" id="submit">
    </form>
+     </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--

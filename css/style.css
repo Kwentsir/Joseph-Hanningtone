@@ -11,6 +11,53 @@ p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
 }
+legend{
+    text-align: center;
+    color: dodgerblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+select{
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: indigo;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 40px;
+    font-size: larger;
+    cursor: pointer;
+}
+
 #survey-form{
-    color: darkblue;
+    width: 100%;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    font-size: larger;
+    cursor: pointer;
+}
+div{
+    border-radius: 20px;
+    background-color: coral;
+}
+fieldset{
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.5em;
+    padding-bottom: 0.1em;
+    padding-left: 0.1em;
+    border: 20px groove(internal value);
+
 }
