@@ -1,0 +1,16 @@
+#title{
+    text-align: center;
+    padding: auto;
+    text-decoration: aqua;
+    font-size: x-large;
+    margin-top: 0%;
+}
+p{
+    text-align: center;
+    color: dodgerblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#survey-form{
+    color: darkblue;
+}
